@@ -3,13 +3,12 @@ import os
 from requests import get, post
 import base64
 import json
+import csv
 
 load_dotenv()
 
 client_secret = os.getenv("CLIENT_SECRET")
 client_id = os.getenv("CLIENT_ID")
-
-print(client_secret, client_id)
 
 def get_token(): 
     auth_string = client_id + ":" + client_secret
@@ -57,24 +56,34 @@ def search_for_artists(token, artist_name):
         print(f"Error: {e}")
         print(result.text)
 
-def basic_extraction(url, token, artist_name):
+def basic_extraction(url, token):
     headers = get_auth_header(token)
-    query = f"?q={artist_name}&type=artist&limit=1"
 
-    query_url = url + query
-    result = get(query_url, headers=headers)
+    result = get(url, headers=headers)
     
     try:
         result.raise_for_status()  
         json_res = result.json()
-        print(json_res)
+        return json_res
     except Exception as e:
         print(f"Error: {e}")
         print(result.text)
 
+def write_to_csv(data, filename):
+    root = os.path.abspath(os.path.dirname(__file__))
+    file_path = os.path.join(root, filename)
+
+    with open(file_path, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldsnames = data.keys()
+        writer = csv.DictWriter(csvfile, fieldnames=fieldsnames)
+
+        writer.writeheader()
+        writer.writerow(data)
+        
 token = get_token()
 
 if token:
-    basic_extraction("https://api.spotify.com/v1/browse/categories/toplists/playlists", token, "Hindia")
+    data = basic_extraction("https://api.spotify.com/v1/browse/categories/toplists/playlists?country=ID", token)
+    write_to_csv(data, "data.csv")
 else:
     print("Unable to obtain token.")
