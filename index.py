@@ -57,9 +57,24 @@ def search_for_artists(token, artist_name):
         print(f"Error: {e}")
         print(result.text)
 
+def basic_extraction(url, token, artist_name):
+    headers = get_auth_header(token)
+    query = f"?q={artist_name}&type=artist&limit=1"
+
+    query_url = url + query
+    result = get(query_url, headers=headers)
+    
+    try:
+        result.raise_for_status()  
+        json_res = result.json()
+        print(json_res)
+    except Exception as e:
+        print(f"Error: {e}")
+        print(result.text)
+
 token = get_token()
 
 if token:
-    search_for_artists(token, "Hindia")
+    basic_extraction("https://api.spotify.com/v1/browse/categories/toplists/playlists", token, "Hindia")
 else:
     print("Unable to obtain token.")
