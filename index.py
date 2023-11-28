@@ -2,10 +2,10 @@ from dotenv import load_dotenv
 import os
 from requests import get, post
 import base64
-import pandas as pd
 import json
 import csv
-from transform import transform
+from pipeline.transform import transform
+from pipeline.extract import extract
 
 load_dotenv()
 
@@ -39,9 +39,6 @@ def get_token():
 
     return None
 
-def get_auth_header(token):
-    return {"Authorization": "Bearer " + token}
-
 def search_for_artists(token, artist_name):
     url = "https://api.spotify.com/v1/search"
     headers = get_auth_header(token)
@@ -58,49 +55,6 @@ def search_for_artists(token, artist_name):
         print(f"Error: {e}")
         print(result.text)
 
-def basic_extraction(url, token):
-    headers = get_auth_header(token)
-
-    result = get(url, headers=headers)
-    
-    try:
-        result.raise_for_status()  
-        data = result.json()
-
-        names = []
-        descriptions = []
-        # playlists = data.get("playlists", {}).get("items", [])
-        names = []
-        albums = []
-        artists = []
-        popularities = []
-        durations = []
-        tracks = data.get("tracks", {}).get("items", [])
-        for track in tracks:
-            names.append(track["track"]["name"])
-            albums.append(track["track"]["album"]["name"])
-            artists.append(track["track"]["artists"][0]["name"])
-            popularities.append(track["track"]["popularity"])
-            durations.append(track["track"]["duration_ms"])
-
-        # for song in playlists:
-        #     names.append(song["name"])
-        #     descriptions.append(song["description"])
-        
-        track_dict = {
-            "name": names,
-            "album": albums,
-            "artist": artists,
-            "popularity": popularities,
-            "duration": durations
-        }
-
-        # song_df = pd.Datarame(song_dict, columns=["name", "description"])
-        track_df = pd.DataFrame(track_dict, columns=["name", "album", "artist", "popularity", "duration"])
-
-        return track_df
-    except Exception as e:
-        print(f"Error: {e}")
 
 def write_to_csv(data, filename):
     root = os.path.abspath(os.path.dirname(__file__))
@@ -122,7 +76,7 @@ def write_to_json(data, filename):
 token = get_token()
 
 if token:
-    data = basic_extraction("https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ", token)
+    data = extract("https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ", token)
     transformed_data = transform(data)
     write_to_csv(transformed_data, "data1.csv")
 else:
