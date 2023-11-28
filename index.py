@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import os
 from requests import get, post
 import base64
+import pandas as pd
 import json
 import csv
 
@@ -63,27 +64,64 @@ def basic_extraction(url, token):
     
     try:
         result.raise_for_status()  
-        json_res = result.json()
-        return json_res
+        data = result.json()
+
+        names = []
+        descriptions = []
+        # playlists = data.get("playlists", {}).get("items", [])
+        names = []
+        albums = []
+        artists = []
+        popularities = []
+        durations = []
+        tracks = data.get("tracks", {}).get("items", [])
+        for track in tracks:
+            names.append(track["track"]["name"])
+            albums.append(track["track"]["album"]["name"])
+            artists.append(track["track"]["artists"][0]["name"])
+            popularities.append(track["track"]["popularity"])
+            durations.append(track["track"]["duration_ms"])
+
+        # for song in playlists:
+        #     names.append(song["name"])
+        #     descriptions.append(song["description"])
+        
+        track_dict = {
+            "name": names,
+            "album": albums,
+            "artist": artists,
+            "popularity": popularities,
+            "duration": durations
+        }
+
+        # song_df = pd.Datarame(song_dict, columns=["name", "description"])
+        track_df = pd.DataFrame(track_dict, columns=["name", "album", "artist", "popularity", "duration"])
+
+        return track_df
     except Exception as e:
         print(f"Error: {e}")
-        print(result.text)
 
 def write_to_csv(data, filename):
     root = os.path.abspath(os.path.dirname(__file__))
     file_path = os.path.join(root, filename)
 
     with open(file_path, 'w', newline='', encoding='utf-8') as csvfile:
-        fieldsnames = data.keys()
-        writer = csv.DictWriter(csvfile, fieldnames=fieldsnames)
+        fieldnames = data.columns  
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
-        writer.writerow(data)
+        writer.writerows(data.to_dict('records'))  
+
+def write_to_json(data, filename):
+    root = os.path.abspath(os.path.dirname(__file__))
+    file_path = os.path.join(root, filename)
+    with open(file_path, 'w', encoding='utf-8') as jsonfile:
+        json.dump(data, jsonfile, ensure_ascii=False, indent=4)
         
 token = get_token()
 
 if token:
-    data = basic_extraction("https://api.spotify.com/v1/browse/categories/toplists/playlists?country=ID", token)
+    data = basic_extraction("https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ", token)
     write_to_csv(data, "data.csv")
 else:
     print("Unable to obtain token.")
