@@ -5,6 +5,7 @@ import base64
 import pandas as pd
 import json
 import csv
+from transform import transform
 
 load_dotenv()
 
@@ -122,6 +123,7 @@ token = get_token()
 
 if token:
     data = basic_extraction("https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ", token)
-    write_to_csv(data, "data.csv")
+    transformed_data = transform(data)
+    write_to_csv(transformed_data, "data1.csv")
 else:
     print("Unable to obtain token.")
