@@ -1,7 +1,7 @@
 # get top 50 spotify data for search query
 import csv
 
-csv_file_path = 'data.csv'
+csv_file_path = 'spotify_data.csv'
 
 songnames = []
 

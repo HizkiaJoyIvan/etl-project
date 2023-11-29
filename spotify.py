@@ -4,8 +4,7 @@ from requests import get, post
 import base64
 import json
 import csv
-from pipeline.transform import transform
-from pipeline.extract import extract
+import pandas as pd
 
 load_dotenv()
 
@@ -39,6 +38,46 @@ def get_token():
 
     return None
 
+def get_auth_header(token):
+    return {"Authorization": "Bearer " + token}
+
+def extract(url, token):
+    headers = get_auth_header(token)
+
+    result = get(url, headers=headers)
+    
+    try:
+        result.raise_for_status()  
+        data = result.json()
+
+        names = []
+        names = []
+        albums = []
+        artists = []
+        popularities = []
+        durations = []
+        tracks = data.get("tracks", {}).get("items", [])
+        for track in tracks:
+            names.append(track["track"]["name"])
+            albums.append(track["track"]["album"]["name"])
+            artists.append(track["track"]["artists"][0]["name"])
+            popularities.append(track["track"]["popularity"])
+            durations.append(track["track"]["duration_ms"])
+        
+        track_dict = {
+            "name": names,
+            "album": albums,
+            "artist": artists,
+            "popularity": popularities,
+            "duration": durations
+        }
+
+        track_df = pd.DataFrame(track_dict, columns=["name", "album", "artist", "popularity", "duration"])
+
+        return track_df
+    except Exception as e:
+        print(f"Error: {e}")
+
 def search_for_artists(token, artist_name):
     url = "https://api.spotify.com/v1/search"
     headers = get_auth_header(token)
@@ -55,6 +94,14 @@ def search_for_artists(token, artist_name):
         print(f"Error: {e}")
         print(result.text)
 
+def clean_data(data):
+    bins = [0, 40, 70, 100]
+    labels = ['low', 'medium', 'high']
+
+    data['duration'] = data['duration'] / 60000
+    data['popularity_category'] = pd.cut(data['popularity'], bins=bins, labels=labels)
+
+    return data
 
 def write_to_csv(data, filename):
     root = os.path.abspath(os.path.dirname(__file__))
@@ -77,7 +124,7 @@ token = get_token()
 
 if token:
     data = extract("https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ", token)
-    transformed_data = transform(data)
+    transformed_data = clean_data(data)
     write_to_csv(transformed_data, "data1.csv")
 else:
     print("Unable to obtain token.")
