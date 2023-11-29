@@ -1,7 +1,7 @@
 # get top 50 spotify data for search query
 import csv
 
-csv_file_path = 'spotify_data.csv'
+csv_file_path = 'extracted_spotify_data.csv'
 
 songnames = []
 
@@ -50,11 +50,12 @@ initial_csv_data = [
     [timeline_data[0]["values"][i]["query"]] + [timeline["values"][i]["extracted_value"] for timeline in timeline_data] for i in range(len(timeline_data[0]["values"]))
 ]
 
-with open("trends.csv", 'w', newline='') as csvfile:
-    csv_writer = csv.writer(csvfile)
-    csv_writer.writerows(initial_csv_data)
-    for i, query in enumerate(queries[1:]):
-      print(i, query)
-      response = fetch_from_api(query).json()
-      timeline_data = response['interest_over_time']['timeline_data']
-      csv_writer.writerows([[timeline_data[0]["values"][i]["query"]] + [timeline["values"][i]["extracted_value"] for timeline in timeline_data] for i in range(len(timeline_data[0]["values"]))])
+def extract_from_google_trends():
+    with open("extracted_trends_data.csv", 'w', newline='') as csvfile:
+        csv_writer = csv.writer(csvfile)
+        csv_writer.writerows(initial_csv_data)
+        for i, query in enumerate(queries[1:]):
+            print(i, query)
+        response = fetch_from_api(query).json()
+        timeline_data = response['interest_over_time']['timeline_data']
+        csv_writer.writerows([[timeline_data[0]["values"][i]["query"]] + [timeline["values"][i]["extracted_value"] for timeline in timeline_data] for i in range(len(timeline_data[0]["values"]))])

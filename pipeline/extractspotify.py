@@ -78,31 +78,6 @@ def extract(url, token):
     except Exception as e:
         print(f"Error: {e}")
 
-def search_for_artists(token, artist_name):
-    url = "https://api.spotify.com/v1/search"
-    headers = get_auth_header(token)
-    query = f"?q={artist_name}&type=artist&limit=1"
-
-    query_url = url + query
-    result = get(query_url, headers=headers)
-    
-    try:
-        result.raise_for_status()  
-        json_res = result.json()
-        print(json_res)
-    except Exception as e:
-        print(f"Error: {e}")
-        print(result.text)
-
-def clean_data(data):
-    bins = [0, 40, 70, 100]
-    labels = ['low', 'medium', 'high']
-
-    data['duration'] = data['duration'] / 60000
-    data['popularity_category'] = pd.cut(data['popularity'], bins=bins, labels=labels)
-
-    return data
-
 def write_to_csv(data, filename):
     root = os.path.abspath(os.path.dirname(__file__))
     file_path = os.path.join(root, filename)
@@ -120,11 +95,11 @@ def write_to_json(data, filename):
     with open(file_path, 'w', encoding='utf-8') as jsonfile:
         json.dump(data, jsonfile, ensure_ascii=False, indent=4)
         
-token = get_token()
+def extract_from_spotify(url):
+    token = get_token()
 
-if token:
-    data = extract("https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ", token)
-    transformed_data = clean_data(data)
-    write_to_csv(transformed_data, "data1.csv")
-else:
-    print("Unable to obtain token.")
+    if token:
+        data = extract(url, token)
+        write_to_csv(data, "extracted_spotify_data.csv")
+    else:
+        print("Unable to obtain token.")
