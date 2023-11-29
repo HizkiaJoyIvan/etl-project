@@ -12,7 +12,7 @@ def load_to_postgresql(df):
 
     try:
         with engine.connect() as conn:
-            df.to_sql("transformed_data", conn, index=False, if_exists='append')
+            df.to_sql("transformed_datas", conn, index=False, if_exists='append')
 
     except Exception as e:
         print(f"Error: {e}")

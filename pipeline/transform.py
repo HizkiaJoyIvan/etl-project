@@ -38,7 +38,7 @@ def transform_spotify(filename):
 
     df['duration'] = df['duration'] / 60000
     df['popularity_category'] = pd.cut(df['popularity'], bins=bins, labels=labels)
-    
+
     # Remove text inside parentheses in the 'name' column
     df['name'] = df['name'].str.replace(r'\([^)]*\)', '', regex=True)
     
@@ -55,7 +55,6 @@ def transform_merge(spotify_df, trends_df):
     # Merging based on the "name" column from spotify_df and "query" column from trends_df
     merged_df = spotify_df.merge(trends_df, left_on='name', right_on='query', how='left')
 
-    # Drop the duplicated column "query" since we used it for merging
 
     return merged_df
 
