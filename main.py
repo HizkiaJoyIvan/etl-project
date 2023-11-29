@@ -10,6 +10,5 @@ if __name__ == "__main__":
     s = transform_spotify("extracted_spotify_data.csv")
     t = transform_trends("extracted_trends_data.csv")
     data = transform_merge(s, t)
-    print(data)
     load_to_postgresql(data)
 
