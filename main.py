@@ -1,7 +1,7 @@
 from pipeline.extractspotify import extract_from_spotify
 from pipeline.extracttrends import extract_from_google_trends
 from pipeline.transform import transform_trends, transform_spotify, transform_merge
-
+from pipeline.load import load_to_postgresql
 
 
 if __name__ == "__main__":
@@ -11,4 +11,5 @@ if __name__ == "__main__":
     t = transform_trends("extracted_trends_data.csv")
     data = transform_merge(s, t)
     print(data)
+    load_to_postgresql(data)
 
