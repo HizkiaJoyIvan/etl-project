@@ -1,0 +1,1627 @@
+{
+    "search_metadata": {
+        "id": "656786b2c504e9e85083b931",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/8de123ca7ce631f3/656786b2c504e9e85083b931.json",
+        "created_at": "2023-11-29 18:45:06 UTC",
+        "processed_at": "2023-11-29 18:45:06 UTC",
+        "google_trends_url": "https://trends.google.com/trends/api/explore?tz=420&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22dialog+hati+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22dj+ku+tak+pernah+merasa+kesepian+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22the+night+we+met+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22dj+teruslah+melangkah+melupakan+dirinya+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22agassy+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%2C%22userConfig%22%3A%22%7BuserType%3A+%5C%22USER_TYPE_LEGIT_USER%5C%22%7D%22%7D",
+        "raw_html_file": "https://serpapi.com/searches/8de123ca7ce631f3/656786b2c504e9e85083b931.html",
+        "prettify_html_file": "https://serpapi.com/searches/8de123ca7ce631f3/656786b2c504e9e85083b931.prettify",
+        "total_time_taken": 47.64
+    },
+    "search_parameters": {
+        "engine": "google_trends",
+        "q": "dialog hati lirik,dj ku tak pernah merasa kesepian lirik,the night we met lirik,dj teruslah melangkah melupakan dirinya lirik,agassy lirik",
+        "date": "today 12-m",
+        "tz": "420",
+        "data_type": "TIMESERIES"
+    },
+    "interest_over_time": {
+        "timeline_data": [
+            {
+                "date": "Dec 4 – 10, 2022",
+                "timestamp": "1670112000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Dec 11 – 17, 2022",
+                "timestamp": "1670716800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Dec 18 – 24, 2022",
+                "timestamp": "1671321600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Dec 25 – 31, 2022",
+                "timestamp": "1671926400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 1 – 7, 2023",
+                "timestamp": "1672531200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "19",
+                        "extracted_value": 19
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 8 – 14, 2023",
+                "timestamp": "1673136000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 15 – 21, 2023",
+                "timestamp": "1673740800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 22 – 28, 2023",
+                "timestamp": "1674345600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 29 – Feb 4, 2023",
+                "timestamp": "1674950400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 5 – 11, 2023",
+                "timestamp": "1675555200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 12 – 18, 2023",
+                "timestamp": "1676160000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 19 – 25, 2023",
+                "timestamp": "1676764800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 26 – Mar 4, 2023",
+                "timestamp": "1677369600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "6",
+                        "extracted_value": 6
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 5 – 11, 2023",
+                "timestamp": "1677974400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 12 – 18, 2023",
+                "timestamp": "1678579200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "15",
+                        "extracted_value": 15
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 19 – 25, 2023",
+                "timestamp": "1679184000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 26 – Apr 1, 2023",
+                "timestamp": "1679788800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 2 – 8, 2023",
+                "timestamp": "1680393600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 9 – 15, 2023",
+                "timestamp": "1680998400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 16 – 22, 2023",
+                "timestamp": "1681603200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 23 – 29, 2023",
+                "timestamp": "1682208000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "6",
+                        "extracted_value": 6
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 30 – May 6, 2023",
+                "timestamp": "1682812800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "6",
+                        "extracted_value": 6
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 7 – 13, 2023",
+                "timestamp": "1683417600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 14 – 20, 2023",
+                "timestamp": "1684022400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 21 – 27, 2023",
+                "timestamp": "1684627200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 28 – Jun 3, 2023",
+                "timestamp": "1685232000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "21",
+                        "extracted_value": 21
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 4 – 10, 2023",
+                "timestamp": "1685836800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "6",
+                        "extracted_value": 6
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 11 – 17, 2023",
+                "timestamp": "1686441600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 18 – 24, 2023",
+                "timestamp": "1687046400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 25 – Jul 1, 2023",
+                "timestamp": "1687651200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 2 – 8, 2023",
+                "timestamp": "1688256000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "16",
+                        "extracted_value": 16
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 9 – 15, 2023",
+                "timestamp": "1688860800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "18",
+                        "extracted_value": 18
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 16 – 22, 2023",
+                "timestamp": "1689465600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "23",
+                        "extracted_value": 23
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 23 – 29, 2023",
+                "timestamp": "1690070400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "17",
+                        "extracted_value": 17
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "27",
+                        "extracted_value": 27
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 30 – Aug 5, 2023",
+                "timestamp": "1690675200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Aug 6 – 12, 2023",
+                "timestamp": "1691280000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Aug 13 – 19, 2023",
+                "timestamp": "1691884800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "16",
+                        "extracted_value": 16
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "11",
+                        "extracted_value": 11
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Aug 20 – 26, 2023",
+                "timestamp": "1692489600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "14",
+                        "extracted_value": 14
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Aug 27 – Sep 2, 2023",
+                "timestamp": "1693094400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "35",
+                        "extracted_value": 35
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Sep 3 – 9, 2023",
+                "timestamp": "1693699200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "20",
+                        "extracted_value": 20
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Sep 10 – 16, 2023",
+                "timestamp": "1694304000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "30",
+                        "extracted_value": 30
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Sep 17 – 23, 2023",
+                "timestamp": "1694908800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "58",
+                        "extracted_value": 58
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Sep 24 – 30, 2023",
+                "timestamp": "1695513600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "59",
+                        "extracted_value": 59
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Oct 1 – 7, 2023",
+                "timestamp": "1696118400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "49",
+                        "extracted_value": 49
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Oct 8 – 14, 2023",
+                "timestamp": "1696723200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "86",
+                        "extracted_value": 86
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Oct 15 – 21, 2023",
+                "timestamp": "1697328000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "57",
+                        "extracted_value": 57
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Oct 22 – 28, 2023",
+                "timestamp": "1697932800",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "77",
+                        "extracted_value": 77
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Oct 29 – Nov 4, 2023",
+                "timestamp": "1698537600",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "11",
+                        "extracted_value": 11
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "81",
+                        "extracted_value": 81
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Nov 5 – 11, 2023",
+                "timestamp": "1699142400",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "69",
+                        "extracted_value": 69
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Nov 12 – 18, 2023",
+                "timestamp": "1699747200",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "100",
+                        "extracted_value": 100
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Nov 19 – 25, 2023",
+                "timestamp": "1700352000",
+                "values": [
+                    {
+                        "query": "dialog hati lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "dj ku tak pernah merasa kesepian lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "the night we met lirik",
+                        "value": "73",
+                        "extracted_value": 73
+                    },
+                    {
+                        "query": "dj teruslah melangkah melupakan dirinya lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "agassy lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            }
+        ],
+        "averages": [
+            {
+                "query": "dialog hati lirik",
+                "value": 3
+            },
+            {
+                "query": "dj ku tak pernah merasa kesepian lirik",
+                "value": 0
+            },
+            {
+                "query": "the night we met lirik",
+                "value": 21
+            },
+            {
+                "query": "dj teruslah melangkah melupakan dirinya lirik",
+                "value": 0
+            },
+            {
+                "query": "agassy lirik",
+                "value": 0
+            }
+        ]
+    }
+}

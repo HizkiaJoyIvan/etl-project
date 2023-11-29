@@ -1,0 +1,1627 @@
+{
+    "search_metadata": {
+        "id": "65678530216a9d03d0d1934c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/ff97a0268d952d0c/65678530216a9d03d0d1934c.json",
+        "created_at": "2023-11-29 18:38:40 UTC",
+        "processed_at": "2023-11-29 18:38:40 UTC",
+        "google_trends_url": "https://trends.google.com/trends/api/explore?tz=420&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22penjaga+hati+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22terminator+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22paranoia+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22mengapa+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22take+a+chance+with+me+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%2C%22userConfig%22%3A%22%7BuserType%3A+%5C%22USER_TYPE_LEGIT_USER%5C%22%7D%22%7D",
+        "raw_html_file": "https://serpapi.com/searches/ff97a0268d952d0c/65678530216a9d03d0d1934c.html",
+        "prettify_html_file": "https://serpapi.com/searches/ff97a0268d952d0c/65678530216a9d03d0d1934c.prettify",
+        "total_time_taken": 36.56
+    },
+    "search_parameters": {
+        "engine": "google_trends",
+        "q": "penjaga hati lirik,terminator lirik,paranoia lirik,mengapa lirik,take a chance with me lirik",
+        "date": "today 12-m",
+        "tz": "420",
+        "data_type": "TIMESERIES"
+    },
+    "interest_over_time": {
+        "timeline_data": [
+            {
+                "date": "Dec 4 – 10, 2022",
+                "timestamp": "1670112000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "32",
+                        "extracted_value": 32
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Dec 11 – 17, 2022",
+                "timestamp": "1670716800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "37",
+                        "extracted_value": 37
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Dec 18 – 24, 2022",
+                "timestamp": "1671321600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    }
+                ]
+            },
+            {
+                "date": "Dec 25 – 31, 2022",
+                "timestamp": "1671926400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "35",
+                        "extracted_value": 35
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 1 – 7, 2023",
+                "timestamp": "1672531200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "30",
+                        "extracted_value": 30
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 8 – 14, 2023",
+                "timestamp": "1673136000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "35",
+                        "extracted_value": 35
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 15 – 21, 2023",
+                "timestamp": "1673740800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "34",
+                        "extracted_value": 34
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 22 – 28, 2023",
+                "timestamp": "1674345600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "32",
+                        "extracted_value": 32
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jan 29 – Feb 4, 2023",
+                "timestamp": "1674950400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "35",
+                        "extracted_value": 35
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 5 – 11, 2023",
+                "timestamp": "1675555200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "38",
+                        "extracted_value": 38
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 12 – 18, 2023",
+                "timestamp": "1676160000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "37",
+                        "extracted_value": 37
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 19 – 25, 2023",
+                "timestamp": "1676764800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "36",
+                        "extracted_value": 36
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Feb 26 – Mar 4, 2023",
+                "timestamp": "1677369600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "37",
+                        "extracted_value": 37
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 5 – 11, 2023",
+                "timestamp": "1677974400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 12 – 18, 2023",
+                "timestamp": "1678579200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 19 – 25, 2023",
+                "timestamp": "1679184000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "25",
+                        "extracted_value": 25
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Mar 26 – Apr 1, 2023",
+                "timestamp": "1679788800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "27",
+                        "extracted_value": 27
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 2 – 8, 2023",
+                "timestamp": "1680393600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "26",
+                        "extracted_value": 26
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 9 – 15, 2023",
+                "timestamp": "1680998400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "26",
+                        "extracted_value": 26
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 16 – 22, 2023",
+                "timestamp": "1681603200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "21",
+                        "extracted_value": 21
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 23 – 29, 2023",
+                "timestamp": "1682208000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "25",
+                        "extracted_value": 25
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Apr 30 – May 6, 2023",
+                "timestamp": "1682812800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "29",
+                        "extracted_value": 29
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 7 – 13, 2023",
+                "timestamp": "1683417600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "35",
+                        "extracted_value": 35
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 14 – 20, 2023",
+                "timestamp": "1684022400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 21 – 27, 2023",
+                "timestamp": "1684627200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "38",
+                        "extracted_value": 38
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "May 28 – Jun 3, 2023",
+                "timestamp": "1685232000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "34",
+                        "extracted_value": 34
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 4 – 10, 2023",
+                "timestamp": "1685836800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "32",
+                        "extracted_value": 32
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 11 – 17, 2023",
+                "timestamp": "1686441600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "32",
+                        "extracted_value": 32
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 18 – 24, 2023",
+                "timestamp": "1687046400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jun 25 – Jul 1, 2023",
+                "timestamp": "1687651200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "29",
+                        "extracted_value": 29
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 2 – 8, 2023",
+                "timestamp": "1688256000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "29",
+                        "extracted_value": 29
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 9 – 15, 2023",
+                "timestamp": "1688860800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "27",
+                        "extracted_value": 27
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    }
+                ]
+            },
+            {
+                "date": "Jul 16 – 22, 2023",
+                "timestamp": "1689465600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "29",
+                        "extracted_value": 29
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 23 – 29, 2023",
+                "timestamp": "1690070400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "30",
+                        "extracted_value": 30
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Jul 30 – Aug 5, 2023",
+                "timestamp": "1690675200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "25",
+                        "extracted_value": 25
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    }
+                ]
+            },
+            {
+                "date": "Aug 6 – 12, 2023",
+                "timestamp": "1691280000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "29",
+                        "extracted_value": 29
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Aug 13 – 19, 2023",
+                "timestamp": "1691884800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "28",
+                        "extracted_value": 28
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Aug 20 – 26, 2023",
+                "timestamp": "1692489600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "29",
+                        "extracted_value": 29
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Aug 27 – Sep 2, 2023",
+                "timestamp": "1693094400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "30",
+                        "extracted_value": 30
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    }
+                ]
+            },
+            {
+                "date": "Sep 3 – 9, 2023",
+                "timestamp": "1693699200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "34",
+                        "extracted_value": 34
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    }
+                ]
+            },
+            {
+                "date": "Sep 10 – 16, 2023",
+                "timestamp": "1694304000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "31",
+                        "extracted_value": 31
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    }
+                ]
+            },
+            {
+                "date": "Sep 17 – 23, 2023",
+                "timestamp": "1694908800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    }
+                ]
+            },
+            {
+                "date": "Sep 24 – 30, 2023",
+                "timestamp": "1695513600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "32",
+                        "extracted_value": 32
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    }
+                ]
+            },
+            {
+                "date": "Oct 1 – 7, 2023",
+                "timestamp": "1696118400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "36",
+                        "extracted_value": 36
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    }
+                ]
+            },
+            {
+                "date": "Oct 8 – 14, 2023",
+                "timestamp": "1696723200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "29",
+                        "extracted_value": 29
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "37",
+                        "extracted_value": 37
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    }
+                ]
+            },
+            {
+                "date": "Oct 15 – 21, 2023",
+                "timestamp": "1697328000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "62",
+                        "extracted_value": 62
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "43",
+                        "extracted_value": 43
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    }
+                ]
+            },
+            {
+                "date": "Oct 22 – 28, 2023",
+                "timestamp": "1697932800",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "89",
+                        "extracted_value": 89
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "<1",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "37",
+                        "extracted_value": 37
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "16",
+                        "extracted_value": 16
+                    }
+                ]
+            },
+            {
+                "date": "Oct 29 – Nov 4, 2023",
+                "timestamp": "1698537600",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "78",
+                        "extracted_value": 78
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "34",
+                        "extracted_value": 34
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "18",
+                        "extracted_value": 18
+                    }
+                ]
+            },
+            {
+                "date": "Nov 5 – 11, 2023",
+                "timestamp": "1699142400",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "95",
+                        "extracted_value": 95
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "32",
+                        "extracted_value": 32
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "18",
+                        "extracted_value": 18
+                    }
+                ]
+            },
+            {
+                "date": "Nov 12 – 18, 2023",
+                "timestamp": "1699747200",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "97",
+                        "extracted_value": 97
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "34",
+                        "extracted_value": 34
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "14",
+                        "extracted_value": 14
+                    }
+                ]
+            },
+            {
+                "date": "Nov 19 – 25, 2023",
+                "timestamp": "1700352000",
+                "values": [
+                    {
+                        "query": "penjaga hati lirik",
+                        "value": "100",
+                        "extracted_value": 100
+                    },
+                    {
+                        "query": "terminator lirik",
+                        "value": "6",
+                        "extracted_value": 6
+                    },
+                    {
+                        "query": "paranoia lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "mengapa lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "take a chance with me lirik",
+                        "value": "14",
+                        "extracted_value": 14
+                    }
+                ]
+            }
+        ],
+        "averages": [
+            {
+                "query": "penjaga hati lirik",
+                "value": 13
+            },
+            {
+                "query": "terminator lirik",
+                "value": 0
+            },
+            {
+                "query": "paranoia lirik",
+                "value": 0
+            },
+            {
+                "query": "mengapa lirik",
+                "value": 32
+            },
+            {
+                "query": "take a chance with me lirik",
+                "value": 2
+            }
+        ]
+    }
+}

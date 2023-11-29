@@ -1,0 +1,20 @@
+{
+    "search_metadata": {
+        "id": "656785fcada54b4fb3f4792f",
+        "status": "Error",
+        "json_endpoint": "https://serpapi.com/searches/426d82e74f5af4ca/656785fcada54b4fb3f4792f.json",
+        "created_at": "2023-11-29 18:42:04 UTC",
+        "processed_at": "2023-11-29 18:42:04 UTC",
+        "google_trends_url": "https://trends.google.com/trends/api/explore?tz=420&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22wide+awake+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22hate+you+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22bodoh+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22surround+sound+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22yes+or+no+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%2C%22userConfig%22%3A%22%7BuserType%3A+%5C%22USER_TYPE_LEGIT_USER%5C%22%7D%22%7D",
+        "prettify_html_file": "https://serpapi.com/searches/426d82e74f5af4ca/656785fcada54b4fb3f4792f.prettify",
+        "total_time_taken": 90.2
+    },
+    "search_parameters": {
+        "engine": "google_trends",
+        "q": "wide awake lirik,hate you lirik,bodoh lirik,surround sound lirik,yes or no lirik",
+        "date": "today 12-m",
+        "tz": "420",
+        "data_type": "TIMESERIES"
+    },
+    "error": "We couldn't get valid results for this search. Please try again later."
+}

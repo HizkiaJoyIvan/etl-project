@@ -50,31 +50,8 @@ def extract(url, token):
         result.raise_for_status()  
         data = result.json()
 
-        names = []
-        names = []
-        albums = []
-        artists = []
-        popularities = []
-        durations = []
-        tracks = data.get("tracks", {}).get("items", [])
-        for track in tracks:
-            names.append(track["track"]["name"])
-            albums.append(track["track"]["album"]["name"])
-            artists.append(track["track"]["artists"][0]["name"])
-            popularities.append(track["track"]["popularity"])
-            durations.append(track["track"]["duration_ms"])
-        
-        track_dict = {
-            "name": names,
-            "album": albums,
-            "artist": artists,
-            "popularity": popularities,
-            "duration": durations
-        }
+        return data
 
-        track_df = pd.DataFrame(track_dict, columns=["name", "album", "artist", "popularity", "duration"])
-
-        return track_df
     except Exception as e:
         print(f"Error: {e}")
 
@@ -114,17 +91,51 @@ def write_to_csv(data, filename):
         writer.writeheader()
         writer.writerows(data.to_dict('records'))  
 
+def read_json_file(filename):
+    root = os.path.abspath(os.path.dirname(__file__))
+    file_path = os.path.join(root, filename)
+    
+    with open(file_path, 'r', encoding='utf-8') as json_file:
+        data = json.load(json_file)
+    return data
+
 def write_to_json(data, filename):
     root = os.path.abspath(os.path.dirname(__file__))
     file_path = os.path.join(root, filename)
     with open(file_path, 'w', encoding='utf-8') as jsonfile:
         json.dump(data, jsonfile, ensure_ascii=False, indent=4)
         
-token = get_token()
+def extract_spotify_data():
+    token = get_token()
+ 
+    if token == None:
+        return print("Unable to obtain token.")
 
-if token:
     data = extract("https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ", token)
-    transformed_data = clean_data(data)
-    write_to_csv(transformed_data, "data1.csv")
-else:
-    print("Unable to obtain token.")
+    write_to_json(data, "../data/raw/spotify.json")
+ 
+def transform_spotify_data():
+    try:
+        raw_data = read_json_file("../data/raw/spotify.json")
+
+        tracks = raw_data.get("tracks", {}).get("items", [])
+    
+        names = [track["track"]["name"] for track in tracks]
+        albums = [track["track"]["album"]["name"] for track in tracks]
+        artists = [track["track"]["artists"][0]["name"] for track in tracks]
+        popularities = [track["track"]["popularity"] for track in tracks]
+        durations = [track["track"]["duration_ms"] for track in tracks]
+    
+        track_dict = {
+            "name": names,
+            "album": albums,
+            "artist": artists,
+            "popularity": popularities,
+            "duration": durations
+        }
+
+        track_df = pd.DataFrame(track_dict, columns=["name", "album", "artist", "popularity", "duration"])
+        write_to_csv(track_df, "../data/processed/spotify.csv")
+
+    except Exception as e:
+        print(f"Error: {e}")

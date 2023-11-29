@@ -1,0 +1,1627 @@
+{
+    "search_metadata": {
+        "id": "65678556116a55225ee8a2c5",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/58722843846d9c06/65678556116a55225ee8a2c5.json",
+        "created_at": "2023-11-29 18:39:18 UTC",
+        "processed_at": "2023-11-29 18:39:18 UTC",
+        "google_trends_url": "https://trends.google.com/trends/api/explore?tz=420&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22karena+kamu+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22the+hanging+tree+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22tapi+tahukah+kamu%3F+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22gloria+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22mencintaimu+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%2C%22userConfig%22%3A%22%7BuserType%3A+%5C%22USER_TYPE_LEGIT_USER%5C%22%7D%22%7D",
+        "raw_html_file": "https://serpapi.com/searches/58722843846d9c06/65678556116a55225ee8a2c5.html",
+        "prettify_html_file": "https://serpapi.com/searches/58722843846d9c06/65678556116a55225ee8a2c5.prettify",
+        "total_time_taken": 42.32
+    },
+    "search_parameters": {
+        "engine": "google_trends",
+        "q": "karena kamu lirik,the hanging tree lirik,tapi tahukah kamu? lirik,gloria lirik,mencintaimu lirik",
+        "date": "today 12-m",
+        "tz": "420",
+        "data_type": "TIMESERIES"
+    },
+    "interest_over_time": {
+        "timeline_data": [
+            {
+                "date": "Dec 4 – 10, 2022",
+                "timestamp": "1670112000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "26",
+                        "extracted_value": 26
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "81",
+                        "extracted_value": 81
+                    }
+                ]
+            },
+            {
+                "date": "Dec 11 – 17, 2022",
+                "timestamp": "1670716800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "32",
+                        "extracted_value": 32
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "86",
+                        "extracted_value": 86
+                    }
+                ]
+            },
+            {
+                "date": "Dec 18 – 24, 2022",
+                "timestamp": "1671321600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "86",
+                        "extracted_value": 86
+                    }
+                ]
+            },
+            {
+                "date": "Dec 25 – 31, 2022",
+                "timestamp": "1671926400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "11",
+                        "extracted_value": 11
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "17",
+                        "extracted_value": 17
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "87",
+                        "extracted_value": 87
+                    }
+                ]
+            },
+            {
+                "date": "Jan 1 – 7, 2023",
+                "timestamp": "1672531200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "73",
+                        "extracted_value": 73
+                    }
+                ]
+            },
+            {
+                "date": "Jan 8 – 14, 2023",
+                "timestamp": "1673136000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "6",
+                        "extracted_value": 6
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "68",
+                        "extracted_value": 68
+                    }
+                ]
+            },
+            {
+                "date": "Jan 15 – 21, 2023",
+                "timestamp": "1673740800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "18",
+                        "extracted_value": 18
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "72",
+                        "extracted_value": 72
+                    }
+                ]
+            },
+            {
+                "date": "Jan 22 – 28, 2023",
+                "timestamp": "1674345600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "19",
+                        "extracted_value": 19
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "69",
+                        "extracted_value": 69
+                    }
+                ]
+            },
+            {
+                "date": "Jan 29 – Feb 4, 2023",
+                "timestamp": "1674950400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "33",
+                        "extracted_value": 33
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "75",
+                        "extracted_value": 75
+                    }
+                ]
+            },
+            {
+                "date": "Feb 5 – 11, 2023",
+                "timestamp": "1675555200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "22",
+                        "extracted_value": 22
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "70",
+                        "extracted_value": 70
+                    }
+                ]
+            },
+            {
+                "date": "Feb 12 – 18, 2023",
+                "timestamp": "1676160000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "27",
+                        "extracted_value": 27
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "82",
+                        "extracted_value": 82
+                    }
+                ]
+            },
+            {
+                "date": "Feb 19 – 25, 2023",
+                "timestamp": "1676764800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "25",
+                        "extracted_value": 25
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "83",
+                        "extracted_value": 83
+                    }
+                ]
+            },
+            {
+                "date": "Feb 26 – Mar 4, 2023",
+                "timestamp": "1677369600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "20",
+                        "extracted_value": 20
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "78",
+                        "extracted_value": 78
+                    }
+                ]
+            },
+            {
+                "date": "Mar 5 – 11, 2023",
+                "timestamp": "1677974400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "20",
+                        "extracted_value": 20
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "68",
+                        "extracted_value": 68
+                    }
+                ]
+            },
+            {
+                "date": "Mar 12 – 18, 2023",
+                "timestamp": "1678579200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "21",
+                        "extracted_value": 21
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "69",
+                        "extracted_value": 69
+                    }
+                ]
+            },
+            {
+                "date": "Mar 19 – 25, 2023",
+                "timestamp": "1679184000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "15",
+                        "extracted_value": 15
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "63",
+                        "extracted_value": 63
+                    }
+                ]
+            },
+            {
+                "date": "Mar 26 – Apr 1, 2023",
+                "timestamp": "1679788800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "52",
+                        "extracted_value": 52
+                    }
+                ]
+            },
+            {
+                "date": "Apr 2 – 8, 2023",
+                "timestamp": "1680393600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "15",
+                        "extracted_value": 15
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "61",
+                        "extracted_value": 61
+                    }
+                ]
+            },
+            {
+                "date": "Apr 9 – 15, 2023",
+                "timestamp": "1680998400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "16",
+                        "extracted_value": 16
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "61",
+                        "extracted_value": 61
+                    }
+                ]
+            },
+            {
+                "date": "Apr 16 – 22, 2023",
+                "timestamp": "1681603200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "55",
+                        "extracted_value": 55
+                    }
+                ]
+            },
+            {
+                "date": "Apr 23 – 29, 2023",
+                "timestamp": "1682208000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "59",
+                        "extracted_value": 59
+                    }
+                ]
+            },
+            {
+                "date": "Apr 30 – May 6, 2023",
+                "timestamp": "1682812800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "17",
+                        "extracted_value": 17
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "67",
+                        "extracted_value": 67
+                    }
+                ]
+            },
+            {
+                "date": "May 7 – 13, 2023",
+                "timestamp": "1683417600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "64",
+                        "extracted_value": 64
+                    }
+                ]
+            },
+            {
+                "date": "May 14 – 20, 2023",
+                "timestamp": "1684022400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "15",
+                        "extracted_value": 15
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "77",
+                        "extracted_value": 77
+                    }
+                ]
+            },
+            {
+                "date": "May 21 – 27, 2023",
+                "timestamp": "1684627200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "15",
+                        "extracted_value": 15
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "87",
+                        "extracted_value": 87
+                    }
+                ]
+            },
+            {
+                "date": "May 28 – Jun 3, 2023",
+                "timestamp": "1685232000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "79",
+                        "extracted_value": 79
+                    }
+                ]
+            },
+            {
+                "date": "Jun 4 – 10, 2023",
+                "timestamp": "1685836800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "79",
+                        "extracted_value": 79
+                    }
+                ]
+            },
+            {
+                "date": "Jun 11 – 17, 2023",
+                "timestamp": "1686441600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "74",
+                        "extracted_value": 74
+                    }
+                ]
+            },
+            {
+                "date": "Jun 18 – 24, 2023",
+                "timestamp": "1687046400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "77",
+                        "extracted_value": 77
+                    }
+                ]
+            },
+            {
+                "date": "Jun 25 – Jul 1, 2023",
+                "timestamp": "1687651200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "11",
+                        "extracted_value": 11
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "72",
+                        "extracted_value": 72
+                    }
+                ]
+            },
+            {
+                "date": "Jul 2 – 8, 2023",
+                "timestamp": "1688256000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "11",
+                        "extracted_value": 11
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "71",
+                        "extracted_value": 71
+                    }
+                ]
+            },
+            {
+                "date": "Jul 9 – 15, 2023",
+                "timestamp": "1688860800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "73",
+                        "extracted_value": 73
+                    }
+                ]
+            },
+            {
+                "date": "Jul 16 – 22, 2023",
+                "timestamp": "1689465600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "64",
+                        "extracted_value": 64
+                    }
+                ]
+            },
+            {
+                "date": "Jul 23 – 29, 2023",
+                "timestamp": "1690070400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "63",
+                        "extracted_value": 63
+                    }
+                ]
+            },
+            {
+                "date": "Jul 30 – Aug 5, 2023",
+                "timestamp": "1690675200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "68",
+                        "extracted_value": 68
+                    }
+                ]
+            },
+            {
+                "date": "Aug 6 – 12, 2023",
+                "timestamp": "1691280000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "68",
+                        "extracted_value": 68
+                    }
+                ]
+            },
+            {
+                "date": "Aug 13 – 19, 2023",
+                "timestamp": "1691884800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "70",
+                        "extracted_value": 70
+                    }
+                ]
+            },
+            {
+                "date": "Aug 20 – 26, 2023",
+                "timestamp": "1692489600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "82",
+                        "extracted_value": 82
+                    }
+                ]
+            },
+            {
+                "date": "Aug 27 – Sep 2, 2023",
+                "timestamp": "1693094400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "11",
+                        "extracted_value": 11
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "89",
+                        "extracted_value": 89
+                    }
+                ]
+            },
+            {
+                "date": "Sep 3 – 9, 2023",
+                "timestamp": "1693699200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "80",
+                        "extracted_value": 80
+                    }
+                ]
+            },
+            {
+                "date": "Sep 10 – 16, 2023",
+                "timestamp": "1694304000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "75",
+                        "extracted_value": 75
+                    }
+                ]
+            },
+            {
+                "date": "Sep 17 – 23, 2023",
+                "timestamp": "1694908800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "69",
+                        "extracted_value": 69
+                    }
+                ]
+            },
+            {
+                "date": "Sep 24 – 30, 2023",
+                "timestamp": "1695513600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "9",
+                        "extracted_value": 9
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "74",
+                        "extracted_value": 74
+                    }
+                ]
+            },
+            {
+                "date": "Oct 1 – 7, 2023",
+                "timestamp": "1696118400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "3",
+                        "extracted_value": 3
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "4",
+                        "extracted_value": 4
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "68",
+                        "extracted_value": 68
+                    }
+                ]
+            },
+            {
+                "date": "Oct 8 – 14, 2023",
+                "timestamp": "1696723200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "75",
+                        "extracted_value": 75
+                    }
+                ]
+            },
+            {
+                "date": "Oct 15 – 21, 2023",
+                "timestamp": "1697328000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "8",
+                        "extracted_value": 8
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "5",
+                        "extracted_value": 5
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "84",
+                        "extracted_value": 84
+                    }
+                ]
+            },
+            {
+                "date": "Oct 22 – 28, 2023",
+                "timestamp": "1697932800",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "7",
+                        "extracted_value": 7
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "81",
+                        "extracted_value": 81
+                    }
+                ]
+            },
+            {
+                "date": "Oct 29 – Nov 4, 2023",
+                "timestamp": "1698537600",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "13",
+                        "extracted_value": 13
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "6",
+                        "extracted_value": 6
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "80",
+                        "extracted_value": 80
+                    }
+                ]
+            },
+            {
+                "date": "Nov 5 – 11, 2023",
+                "timestamp": "1699142400",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "20",
+                        "extracted_value": 20
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "100",
+                        "extracted_value": 100
+                    }
+                ]
+            },
+            {
+                "date": "Nov 12 – 18, 2023",
+                "timestamp": "1699747200",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "44",
+                        "extracted_value": 44
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "0",
+                        "extracted_value": 0
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "10",
+                        "extracted_value": 10
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "95",
+                        "extracted_value": 95
+                    }
+                ]
+            },
+            {
+                "date": "Nov 19 – 25, 2023",
+                "timestamp": "1700352000",
+                "values": [
+                    {
+                        "query": "karena kamu lirik",
+                        "value": "54",
+                        "extracted_value": 54
+                    },
+                    {
+                        "query": "the hanging tree lirik",
+                        "value": "2",
+                        "extracted_value": 2
+                    },
+                    {
+                        "query": "tapi tahukah kamu? lirik",
+                        "value": "1",
+                        "extracted_value": 1
+                    },
+                    {
+                        "query": "gloria lirik",
+                        "value": "12",
+                        "extracted_value": 12
+                    },
+                    {
+                        "query": "mencintaimu lirik",
+                        "value": "91",
+                        "extracted_value": 91
+                    }
+                ]
+            }
+        ],
+        "averages": [
+            {
+                "query": "karena kamu lirik",
+                "value": 15
+            },
+            {
+                "query": "the hanging tree lirik",
+                "value": 0
+            },
+            {
+                "query": "tapi tahukah kamu? lirik",
+                "value": 0
+            },
+            {
+                "query": "gloria lirik",
+                "value": 6
+            },
+            {
+                "query": "mencintaimu lirik",
+                "value": 74
+            }
+        ]
+    }
+}

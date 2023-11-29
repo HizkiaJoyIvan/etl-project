@@ -1,0 +1,20 @@
+{
+    "search_metadata": {
+        "id": "65678657ea14429869093786",
+        "status": "Error",
+        "json_endpoint": "https://serpapi.com/searches/6d4e636c048612ca/65678657ea14429869093786.json",
+        "created_at": "2023-11-29 18:43:35 UTC",
+        "processed_at": "2023-11-29 18:43:35 UTC",
+        "google_trends_url": "https://trends.google.com/trends/api/explore?tz=420&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22%5C%22slut%21%5C%22+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22dj+aku+lagi+bete+beb+aku+lagi+sensi+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22one+of+the+girls+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22rindu+lukisan+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%2C%7B%22keyword%22%3A%22satu+peluang+lirik%22%2C%22geo%22%3A%22%22%2C%22time%22%3A%22today+12-m%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%2C%22userConfig%22%3A%22%7BuserType%3A+%5C%22USER_TYPE_LEGIT_USER%5C%22%7D%22%7D",
+        "prettify_html_file": "https://serpapi.com/searches/6d4e636c048612ca/65678657ea14429869093786.prettify",
+        "total_time_taken": 90.13
+    },
+    "search_parameters": {
+        "engine": "google_trends",
+        "q": "\"slut!\" lirik,dj aku lagi bete beb aku lagi sensi lirik,one of the girls lirik,rindu lukisan lirik,satu peluang lirik",
+        "date": "today 12-m",
+        "tz": "420",
+        "data_type": "TIMESERIES"
+    },
+    "error": "We couldn't get valid results for this search. Please try again later."
+}
