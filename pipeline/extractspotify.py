@@ -95,7 +95,8 @@ def write_to_json(data, filename):
     with open(file_path, 'w', encoding='utf-8') as jsonfile:
         json.dump(data, jsonfile, ensure_ascii=False, indent=4)
         
-def extract_from_spotify(url):
+def extract_from_spotify():
+    url = "https://api.spotify.com/v1/playlists/37i9dQZEVXbKpV6RVDTWcZ"
     token = get_token()
 
     if token:

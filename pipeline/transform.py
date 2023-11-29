@@ -38,6 +38,13 @@ def transform_spotify(filename):
 
     df['duration'] = df['duration'] / 60000
     df['popularity_category'] = pd.cut(df['popularity'], bins=bins, labels=labels)
+    
+    # Remove text inside parentheses in the 'name' column
+    df['name'] = df['name'].str.replace(r'\([^)]*\)', '', regex=True)
+    
+    # Remove text after hyphens in the 'name' column
+    df['name'] = df['name'].str.split(' - ', n=1).str[0]
+
     df['name'] = df['name'].str.lower().str.strip()
 
     return df
